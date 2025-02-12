@@ -14,6 +14,7 @@ cd Docker
 ```
 
 ### 2️⃣ Run docker
+(Make sure Docker Desktop is installed on your machine.)
 ```bash
 docker-compose up --build
 ```
