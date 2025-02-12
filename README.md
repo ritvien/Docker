@@ -1,31 +1,22 @@
-# FastAPI Gender Prediction API  
+# Project Gender Prediction 
 
-## 📌 Giới thiệu  
-Đây là một API dự đoán giới tính từ hình ảnh sử dụng FastAPI.  
+## 📌 Intro
+This project is an AI project that predicts gender through images of people's faces. It illustrates the simple use of Docker combined with FastAPI.
 
 ---
 
-## 🔧 Cài đặt và Chạy API  
+## 🔧 To sign up the project, simply install Docker Desktop and then run the following commands:
 
-### 1️⃣ Cài đặt dependencies  
-Trước tiên, hãy cài đặt thư viện cần thiết bằng lệnh:  
-
+### 1️⃣ Clone repository
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/docker/getting-started-todo-app
+cd getting-started-todo-app
 ```
 
-### 2️⃣ Tải mô hình từ Google Drive
-Chạy script sau để tải mô hình gender_model.onnx:
-
+### 2️⃣ Run docker
 ```bash
-python download_model.py
+docker-compose up --build
 ```
 
-### 3️⃣ Chạy Server FastAPI
-Sau khi tải model thành công, chạy API bằng lệnh sau:
-```bash
-python server.py
-```
-
-Mặc định, API sẽ chạy tại:
-[Link local server: http://127.0.0.1:8000](http://127.0.0.1:8000)
+### 3️⃣ Test Server FastAPI
+[Link local server: http://localhost:8000/](http://localhost:8000/)
