@@ -20,4 +20,4 @@ docker-compose up --build
 ```
 
 ### 3️⃣ Test Server FastAPI
-[Link local server: http://localhost:8000/](http://localhost:8000/)
+[Link local server: http://localhost:8080/](http://localhost:8080/)
