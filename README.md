@@ -9,8 +9,8 @@ This project is an AI project that predicts gender through images of people's fa
 
 ### 1️⃣ Clone repository
 ```bash
-git clone https://github.com/docker/getting-started-todo-app
-cd getting-started-todo-app
+git clone https://github.com/ritvien/Docker
+cd Docker
 ```
 
 ### 2️⃣ Run docker
