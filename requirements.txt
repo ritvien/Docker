@@ -1,3 +1,5 @@
 gdown
 uvicorn
 fastapi
+asyncmy
+SQLAlchemy
