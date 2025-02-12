@@ -1,3 +1,4 @@
+onnxruntime
 numpy
 gdown
 uvicorn
