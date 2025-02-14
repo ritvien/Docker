@@ -21,8 +21,8 @@ COPY . /app/
 # Chạy file tải model trong quá trình build
 RUN python download_model.py
 
-# Mở cổng 8000
-EXPOSE 8000
+# Mở cổng 8080
+EXPOSE 8080
 
 # Chạy ứng dụng khi container khởi động
 CMD ["python", "server.py"]
